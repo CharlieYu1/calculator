@@ -1,0 +1,32 @@
+.container {
+    width: 380px;
+    padding: 20px;
+    border: 1px solid #darkgrey;
+    background-color: lightgrey;
+}
+
+.display {
+    width: 340px;
+    height: 20px;
+    border: 1px solid darkgrey;
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+button[id="backspace"] {
+    grid-column-start: 3;
+}
